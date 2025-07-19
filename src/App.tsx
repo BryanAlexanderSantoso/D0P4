@@ -154,7 +154,7 @@ function App() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden bg-black/90 backdrop-blur-xl border-t border-purple-500/30">
+          <div className="md:hidden bg-black/95 backdrop-blur-xl border-t border-purple-500/30">
             <div className="px-6 py-6 space-y-4">
               {['HOME', 'MATRIX', 'EVENTS', 'GHOSTS'].map((item, index) => (
                 <a
@@ -181,7 +181,7 @@ function App() {
           {/* Main Hero Content */}
           <div className="text-center mb-16">
             {/* Status Bar */}
-            <div className="inline-flex items-center space-x-4 mb-8 bg-black/50 backdrop-blur-sm border border-purple-500/30 px-6 py-3 font-mono text-sm">
+            <div className="inline-flex items-center space-x-4 mb-8 bg-black/70 backdrop-blur-sm border border-purple-500/30 px-6 py-3 font-mono text-sm">
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
                 <span className="text-green-400">SYSTEM ONLINE</span>
