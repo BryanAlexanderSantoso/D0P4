@@ -105,7 +105,7 @@ function App() {
       </div>
 
       {/* Navigation */}
-      <nav className="relative z-50 bg-black/80 backdrop-blur-xl border-b border-purple-500/30">
+      <nav className="relative z-50 bg-black/90 backdrop-blur-xl border-b border-purple-500/30">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
@@ -154,7 +154,7 @@ function App() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden bg-black/95 backdrop-blur-xl border-t border-purple-500/30">
+          <div className="md:hidden bg-black/90 backdrop-blur-xl border-t border-purple-500/30">
             <div className="px-6 py-6 space-y-4">
               {['HOME', 'MATRIX', 'EVENTS', 'GHOSTS'].map((item, index) => (
                 <a
