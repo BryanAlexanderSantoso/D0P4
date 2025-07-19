@@ -72,9 +72,22 @@ function App() {
 
   return (
     <div className="min-h-screen bg-black text-white overflow-hidden relative">
-      {/* Cyberpunk Grid Background */}
+      {/* Video Background */}
       <div className="fixed inset-0 z-0">
-        <div className="absolute inset-0 bg-black"></div>
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source src="https://ik.imagekit.io/1yqrowr2y/lv_0_20250531004124.mp4?updatedAt=1752933380789" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-black/60"></div>
+      </div>
+
+      {/* Cyberpunk Grid Background */}
+      <div className="fixed inset-0 z-10">
         <div className="absolute inset-0 opacity-20">
           <div className="absolute inset-0 bg-gradient-to-br from-purple-900/30 via-transparent to-purple-600/20"></div>
           <div className="absolute inset-0" style={{
