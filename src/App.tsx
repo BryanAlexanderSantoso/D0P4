@@ -105,7 +105,7 @@ function App() {
       </div>
 
       {/* Navigation */}
-      <nav className="relative z-50 bg-black/90 backdrop-blur-xl border-b border-purple-500/30">
+      <nav className="relative z-50 bg-black/80 backdrop-blur-xl border-b border-purple-500/30">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
